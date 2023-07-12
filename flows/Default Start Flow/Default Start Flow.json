@@ -1,0 +1,58 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "Default Start Flow",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Hi! I'm your Robot Advisor. \n\nI can help you carry out below tasks \n- Report Card Loss\n- Check balance\n- Check application status\n\nHow can I assist you today?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "4ef6954f-d74b-46a8-9293-d38a8bfd6e3b"
+  }, {
+    "intent": "check balance",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Check Balance",
+    "name": "78fbd3f7-10f8-4729-bba7-17b4e2435517"
+  }, {
+    "intent": "Loss of Card",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Loss of Card",
+    "name": "a25425ce-87db-4b11-8862-e7f7a95a7871"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "e9eede05-8494-4df7-8b50-4a3291f8eafe"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "7c9ea39a-3300-469f-8c1f-d8e58accf96f"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001
+  }
+}

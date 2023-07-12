@@ -1,0 +1,62 @@
+{
+  "name": "3c1de88f-c2bf-489d-956c-6b0bbe63afd9",
+  "displayName": "Loss of Card",
+  "transitionRoutes": [ {
+    "intent": "Block Card",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Block Card",
+    "name": "1c2cd266-c175-4adb-b92a-e14515dcc554"
+  }, {
+    "intent": "Replace Card",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Please wait while we initiate the request" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Replace card",
+    "name": "0bd56126-4843-4b5c-b4af-244cf9ee63cb"
+  }, {
+    "intent": "Loss of Card",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "What do you wish to do?\n- Block card \n- Replace Card" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "4363ae91-1647-4fba-9365-e302b8af882f"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "6426af94-157d-412f-9058-5a62fcd8eabf"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "a977fe9f-b64c-43ae-90c7-440f618dd1a4"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001
+  }
+}
