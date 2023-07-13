@@ -1,30 +1,13 @@
 {
-  "name": "00000000-0000-0000-0000-000000000000",
-  "displayName": "Default Start Flow",
-  "description": "A start flow created along with the agent",
+  "name": "5c165a79-550c-4faa-b448-218a8c38023c",
+  "displayName": "List Card Number",
   "transitionRoutes": [ {
-    "intent": "Default Welcome Intent",
+    "intent": "Card Replace Response Yes",
     "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "Hi! I'm your Gen AI Agent. \n \nHow can I help you?" ]
-        },
-        "languageCode": "en"
-      } ]
+    
     },
-    "name": "c7983a60-990c-4163-81d7-fc3034df23fc"
-  }, {
-    "intent": "Lost Card",
-    "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "Please provide your registered phone number" ]
-        },
-        "languageCode": "en"
-      } ]
-    },
-    "targetFlow": "Lost Card",
-    "name": "be9f66f6-1608-46c2-be34-67ba21008923"
+    "targetPage": "List Card Number",
+    "name": "1e8b08e1-3bf4-4e76-b1f1-eebfe62b0197"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",
@@ -36,7 +19,7 @@
         "languageCode": "en"
       } ]
     },
-    "name": "04e0f2b9-55b5-484c-8bf3-4aa2b82f88e4"
+    "name": "28161ea0-e5b1-4bab-81b5-8e97c62b57b9"
   }, {
     "event": "sys.no-input-default",
     "triggerFulfillment": {
@@ -47,10 +30,17 @@
         "languageCode": "en"
       } ]
     },
-    "name": "ee9455ef-9346-431d-a435-9f337db2df8e"
+    "name": "93854131-713f-4fc1-bf37-f2c4458da840"
   } ],
   "nluSettings": {
     "modelType": "MODEL_TYPE_STANDARD",
-    "classificationThreshold": 0.30000001
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "multiIntentSettings": {
+    
+    }
+  },
+  "advancedSettings": {
+    "enabled": true
   }
 }

@@ -1,0 +1,10 @@
+{
+  "name": "b8ece93f-d514-4441-a7c0-6c8e1099ef3e",
+  "displayName": "Validate OTP",
+  "parameters": [ {
+    "id": "otp",
+    "entityType": "@OTP"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 1
+}

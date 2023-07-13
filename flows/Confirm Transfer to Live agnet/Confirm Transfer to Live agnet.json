@@ -1,30 +1,25 @@
 {
-  "name": "00000000-0000-0000-0000-000000000000",
-  "displayName": "Default Start Flow",
-  "description": "A start flow created along with the agent",
+  "name": "c6137fca-1384-4385-a8ea-fe987082de77",
+  "displayName": "Confirm Transfer to Live agnet",
   "transitionRoutes": [ {
-    "intent": "Default Welcome Intent",
+    "intent": "Transfer to Live Yes",
     "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "Hi! I'm your Gen AI Agent. \n \nHow can I help you?" ]
-        },
-        "languageCode": "en"
-      } ]
+    
     },
-    "name": "c7983a60-990c-4163-81d7-fc3034df23fc"
+    "targetPage": "Transfer to Live Agent",
+    "name": "e32a7c8b-b2e3-4ce8-9f79-886b7756d468"
   }, {
-    "intent": "Lost Card",
+    "intent": "Transfer to Live No",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "Please provide your registered phone number" ]
+          "text": [ "Have a nice day!" ]
         },
         "languageCode": "en"
       } ]
     },
-    "targetFlow": "Lost Card",
-    "name": "be9f66f6-1608-46c2-be34-67ba21008923"
+    "targetPage": "End Flow",
+    "name": "8cee6193-b984-4bcb-9904-0c07fdbafde1"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",
@@ -36,7 +31,7 @@
         "languageCode": "en"
       } ]
     },
-    "name": "04e0f2b9-55b5-484c-8bf3-4aa2b82f88e4"
+    "name": "b44e92f7-2ea7-4050-bd2b-ba4799fa987e"
   }, {
     "event": "sys.no-input-default",
     "triggerFulfillment": {
@@ -47,7 +42,7 @@
         "languageCode": "en"
       } ]
     },
-    "name": "ee9455ef-9346-431d-a435-9f337db2df8e"
+    "name": "48088d72-8c90-4936-82ed-e3e1a4349bbb"
   } ],
   "nluSettings": {
     "modelType": "MODEL_TYPE_STANDARD",

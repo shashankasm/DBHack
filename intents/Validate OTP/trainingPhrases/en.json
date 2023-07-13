@@ -1,0 +1,11 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "1234",
+      "parameterId": "otp",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

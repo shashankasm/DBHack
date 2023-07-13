@@ -1,0 +1,40 @@
+{
+  "name": "57c16093-e018-4943-b89b-bb24376856ae",
+  "displayName": "Replace Card",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Do you wish to raise request for replacement card?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Card Replace Response Yes",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Your request for Replacement card is placed. here is you request number : SR567894", "Your request for Replacement card is placed. here is you request number : SR524594" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetFlow": "Default Start Flow",
+    "name": "4295231f-f227-47a1-a36f-f89d14254688"
+  }, {
+    "intent": "Card Replace Response No",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Have a nice day!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetFlow": "Default Start Flow",
+    "name": "9a95f742-3b89-411a-823c-065da93a9557"
+  } ]
+}
