@@ -1,0 +1,40 @@
+{
+  "name": "a47826e0-a592-4029-ae6f-146d4a7123f5",
+  "displayName": "List Card Number",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "9747-6543-2100-1344", "9747-2473-2100-1344" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Confirm Block Yes",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Your card is blocked successfully " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Replace Card",
+    "name": "9b0f341b-9468-49a3-b629-4261279ca6fb"
+  }, {
+    "intent": "Confirm Block No",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Have a Nice Day!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetFlow": "Default Start Flow",
+    "name": "ea829be0-0488-42f2-9779-5cd54c712d00"
+  } ]
+}

@@ -1,6 +1,34 @@
 {
   "trainingPhrases": [ {
-    "id": "8c7e6904-62b8-4fcc-b380-2b4cd230236f",
+    "parts": [ {
+      "text": "ok",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "can you help me",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "okay",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "help",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "id": "5740c512-f370-47dd-bfd3-bf1f9032f506",
     "parts": [ {
       "text": "just going to say hi",
       "auto": true
@@ -8,7 +36,7 @@
     "repeatCount": 1,
     "languageCode": "en"
   }, {
-    "id": "86114f99-7eee-427a-9fb0-086a5022ea87",
+    "id": "54590e26-6545-4d46-ada5-59d7b3d58e61",
     "parts": [ {
       "text": "heya",
       "auto": true
@@ -16,7 +44,7 @@
     "repeatCount": 1,
     "languageCode": "en"
   }, {
-    "id": "7106d645-0756-4fef-bff8-9c8411d2c7e2",
+    "id": "939f28ad-93be-4b53-8096-0836d4bc909c",
     "parts": [ {
       "text": "hello hi",
       "auto": true
@@ -24,7 +52,7 @@
     "repeatCount": 1,
     "languageCode": "en"
   }, {
-    "id": "4fa171f0-4772-4360-b7c3-80a4e91c9be3",
+    "id": "65bd979f-4c22-4d72-af20-d7d61cae0faf",
     "parts": [ {
       "text": "howdy",
       "auto": true
@@ -32,7 +60,7 @@
     "repeatCount": 1,
     "languageCode": "en"
   }, {
-    "id": "ffd0af9f-c029-4297-9850-fb9929d6299e",
+    "id": "7afe16c7-5ffa-490f-a302-e837bf203183",
     "parts": [ {
       "text": "hey there",
       "auto": true
@@ -40,7 +68,7 @@
     "repeatCount": 1,
     "languageCode": "en"
   }, {
-    "id": "6b39f9c1-c5fd-47b8-ae00-78672247b5f8",
+    "id": "fcd7e6a8-3126-4fbc-b861-1151a0d88ea9",
     "parts": [ {
       "text": "hi there",
       "auto": true
@@ -48,7 +76,7 @@
     "repeatCount": 2,
     "languageCode": "en"
   }, {
-    "id": "51a52125-2797-4cb7-bdea-ea090946be49",
+    "id": "b760f5ff-f4bd-4a8d-8516-a43704a26125",
     "parts": [ {
       "text": "greetings",
       "auto": true
@@ -56,7 +84,7 @@
     "repeatCount": 1,
     "languageCode": "en"
   }, {
-    "id": "92b96b40-9522-4842-a3c5-472909299430",
+    "id": "d20a15fb-fce6-41ff-93f8-d7fd6e49d540",
     "parts": [ {
       "text": "hey",
       "auto": true
@@ -64,7 +92,7 @@
     "repeatCount": 1,
     "languageCode": "en"
   }, {
-    "id": "c2ba1e97-b186-493a-a16f-710ced56e17c",
+    "id": "4e5c8446-ad9f-47e6-94bc-4fc9efcdb4e4",
     "parts": [ {
       "text": "long time no see",
       "auto": true
@@ -72,7 +100,7 @@
     "repeatCount": 1,
     "languageCode": "en"
   }, {
-    "id": "91680732-cef4-4c53-acb6-184da9280a02",
+    "id": "a64bc816-cc3d-4217-9734-f64238a771c5",
     "parts": [ {
       "text": "hello",
       "auto": true
@@ -80,7 +108,7 @@
     "repeatCount": 1,
     "languageCode": "en"
   }, {
-    "id": "9f67344f-a810-4777-aee9-111684f08c84",
+    "id": "fab78f0c-6863-4d65-a4b0-1a4bcfca31e9",
     "parts": [ {
       "text": "lovely day isn't it",
       "auto": true
@@ -88,7 +116,7 @@
     "repeatCount": 1,
     "languageCode": "en"
   }, {
-    "id": "76a6a071-6f6a-4c1c-99f5-3e4af8f50b8a",
+    "id": "1030e205-ce0a-486f-a056-16476da178eb",
     "parts": [ {
       "text": "I greet you",
       "auto": true
@@ -96,7 +124,7 @@
     "repeatCount": 1,
     "languageCode": "en"
   }, {
-    "id": "473bdc1a-f964-4711-a6a3-61841c58c321",
+    "id": "0301809b-0bc2-4c20-95a6-e88a3b61f26e",
     "parts": [ {
       "text": "hello again",
       "auto": true
@@ -104,7 +132,7 @@
     "repeatCount": 1,
     "languageCode": "en"
   }, {
-    "id": "f058426d-e055-4d07-ba1d-f2185b5e1f2e",
+    "id": "44bf5c37-1ec4-43d0-963a-87967c6af1c8",
     "parts": [ {
       "text": "hi",
       "auto": true
@@ -112,7 +140,7 @@
     "repeatCount": 1,
     "languageCode": "en"
   }, {
-    "id": "b2572bfa-fbbc-46fd-a133-66116f0de433",
+    "id": "08cddf2f-bf28-4c26-8a8e-35c399104204",
     "parts": [ {
       "text": "hello there",
       "auto": true
@@ -120,7 +148,7 @@
     "repeatCount": 1,
     "languageCode": "en"
   }, {
-    "id": "ca803a13-b03a-4511-8d9d-c3aa75d524d1",
+    "id": "38991ca3-c3bd-42df-b59c-f8994870cf15",
     "parts": [ {
       "text": "a good day",
       "auto": true

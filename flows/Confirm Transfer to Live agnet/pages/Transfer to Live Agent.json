@@ -1,0 +1,20 @@
+{
+  "name": "af814507-32e3-4d8c-bd17-f494e7301539",
+  "displayName": "Transfer to Live Agent",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Please wait we are transferring your call to live agent" ]
+      },
+      "languageCode": "en"
+    }, {
+      "outputAudioText": {
+        "text": "Hello how may i help you??"
+      },
+      "languageCode": "en"
+    } ]
+  }
+}

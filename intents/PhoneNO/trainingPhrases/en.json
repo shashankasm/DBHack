@@ -1,0 +1,11 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "9876543210",
+      "parameterId": "phoneNo",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

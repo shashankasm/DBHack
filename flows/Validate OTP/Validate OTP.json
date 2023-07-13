@@ -1,0 +1,45 @@
+{
+  "name": "0186e587-3177-467a-a06d-918cc29acd41",
+  "displayName": "Validate OTP",
+  "transitionRoutes": [ {
+    "intent": "Validate OTP",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "As per our records below is your card number. Do you wish to block this card." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "List Card Number",
+    "name": "bff5c811-d2a6-413b-b962-c93e9e9dd063"
+  } ],
+  "eventHandlers": [ {
+    "targetFlow": "Validate OTP",
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Invalid OTP" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "a48e4cfe-be63-4fdb-bc4a-c20d3c4df286"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "cf4d2f1c-3755-486d-81cc-e599fe983616"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001
+  }
+}
