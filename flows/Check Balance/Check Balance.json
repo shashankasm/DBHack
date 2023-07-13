@@ -1,42 +1,13 @@
 {
-  "name": "00000000-0000-0000-0000-000000000000",
-  "displayName": "Default Start Flow",
-  "description": "A start flow created along with the agent",
+  "name": "6d394a49-ec9f-4d6b-a2ee-59609af68c6c",
+  "displayName": "Check Balance",
   "transitionRoutes": [ {
-    "intent": "Default Welcome Intent",
+    "intent": "PhoneNO",
     "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "Hi! I'm your Gen AI Agent. \n \nHow can I help you?" ]
-        },
-        "languageCode": "en"
-      } ]
+    
     },
-    "name": "c7983a60-990c-4163-81d7-fc3034df23fc"
-  }, {
-    "intent": "Lost Card",
-    "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "Please provide your registered phone number" ]
-        },
-        "languageCode": "en"
-      } ]
-    },
-    "targetFlow": "Lost Card",
-    "name": "be9f66f6-1608-46c2-be34-67ba21008923"
-  }, {
-    "intent": "Check Balance",
-    "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "Please enter your registered phone number" ]
-        },
-        "languageCode": "en"
-      } ]
-    },
-    "targetFlow": "Check Balance",
-    "name": "8bbd0077-d11f-4897-b80b-a4a402a2bef0"
+    "targetFlow": "Validate Phone Number 1",
+    "name": "45dd59e3-5cd8-434d-951e-47cb8ac1fd1f"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",
@@ -48,7 +19,7 @@
         "languageCode": "en"
       } ]
     },
-    "name": "04e0f2b9-55b5-484c-8bf3-4aa2b82f88e4"
+    "name": "0c6126b6-4157-44fc-8ffe-254bb66fab5d"
   }, {
     "event": "sys.no-input-default",
     "triggerFulfillment": {
@@ -59,7 +30,7 @@
         "languageCode": "en"
       } ]
     },
-    "name": "ee9455ef-9346-431d-a435-9f337db2df8e"
+    "name": "b14be145-6057-4818-918b-8ee825536ce0"
   } ],
   "nluSettings": {
     "modelType": "MODEL_TYPE_STANDARD",

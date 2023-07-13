@@ -1,0 +1,10 @@
+{
+  "name": "2570ad43-4e65-4b2d-8b36-da0bbc505bad",
+  "displayName": "PhoneNumber",
+  "parameters": [ {
+    "id": "phone-number",
+    "entityType": "@sys.phone-number"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 2
+}

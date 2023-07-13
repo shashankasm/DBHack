@@ -3,7 +3,7 @@
   "displayName": "Validate OTP",
   "parameters": [ {
     "id": "otp",
-    "entityType": "@OTP"
+    "entityType": "@otp"
   } ],
   "priority": 500000,
   "numTrainingPhrases": 1

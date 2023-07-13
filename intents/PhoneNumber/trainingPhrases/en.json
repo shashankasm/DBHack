@@ -1,0 +1,19 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "1324567890",
+      "parameterId": "phone-number",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "9876543210",
+      "parameterId": "phone-number",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

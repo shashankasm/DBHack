@@ -1,42 +1,18 @@
 {
-  "name": "00000000-0000-0000-0000-000000000000",
-  "displayName": "Default Start Flow",
-  "description": "A start flow created along with the agent",
+  "name": "63c60353-6167-4bb9-8bf7-041482a80fd0",
+  "displayName": "Validate Phone Number 1",
   "transitionRoutes": [ {
-    "intent": "Default Welcome Intent",
+    "intent": "PhoneNO",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "Hi! I'm your Gen AI Agent. \n \nHow can I help you?" ]
+          "text": [ "OTP is being sent to your registered phone number.\r\nPlease enter OTP." ]
         },
         "languageCode": "en"
       } ]
     },
-    "name": "c7983a60-990c-4163-81d7-fc3034df23fc"
-  }, {
-    "intent": "Lost Card",
-    "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "Please provide your registered phone number" ]
-        },
-        "languageCode": "en"
-      } ]
-    },
-    "targetFlow": "Lost Card",
-    "name": "be9f66f6-1608-46c2-be34-67ba21008923"
-  }, {
-    "intent": "Check Balance",
-    "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "Please enter your registered phone number" ]
-        },
-        "languageCode": "en"
-      } ]
-    },
-    "targetFlow": "Check Balance",
-    "name": "8bbd0077-d11f-4897-b80b-a4a402a2bef0"
+    "targetFlow": "Validate OTP 1",
+    "name": "682975b9-cc89-4b60-b0a5-c028c6254637"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",
@@ -48,7 +24,7 @@
         "languageCode": "en"
       } ]
     },
-    "name": "04e0f2b9-55b5-484c-8bf3-4aa2b82f88e4"
+    "name": "55aa5455-94ad-4ce2-92f0-127c8658bdd3"
   }, {
     "event": "sys.no-input-default",
     "triggerFulfillment": {
@@ -59,7 +35,7 @@
         "languageCode": "en"
       } ]
     },
-    "name": "ee9455ef-9346-431d-a435-9f337db2df8e"
+    "name": "0a931845-720b-4bba-a7ad-af77a8e2054f"
   } ],
   "nluSettings": {
     "modelType": "MODEL_TYPE_STANDARD",

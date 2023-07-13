@@ -1,5 +1,5 @@
 {
   "name": "3f0f29ee-6398-4845-aa48-c71a9fba763e",
-  "displayName": "OTP",
-  "kind": "KIND_LIST"
+  "displayName": "otp",
+  "kind": "KIND_REGEXP"
 }
