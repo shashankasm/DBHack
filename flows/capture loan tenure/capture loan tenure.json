@@ -1,54 +1,18 @@
 {
-  "name": "00000000-0000-0000-0000-000000000000",
-  "displayName": "Default Start Flow",
-  "description": "A start flow created along with the agent",
+  "name": "e6d8f0cd-5c2f-4a20-8040-9faad0735ec1",
+  "displayName": "capture loan tenure",
   "transitionRoutes": [ {
-    "intent": "Default Welcome Intent",
+    "intent": "Loan Tenure",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "Hi! I'm your Gen AI Agent. \n \nHow can I help you?" ]
+          "text": [ "Enter rate of interest" ]
         },
         "languageCode": "en"
       } ]
     },
-    "name": "c7983a60-990c-4163-81d7-fc3034df23fc"
-  }, {
-    "intent": "Lost Card",
-    "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "Please provide your registered phone number" ]
-        },
-        "languageCode": "en"
-      } ]
-    },
-    "targetFlow": "Lost Card",
-    "name": "be9f66f6-1608-46c2-be34-67ba21008923"
-  }, {
-    "intent": "Check Balance",
-    "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "Please enter your registered phone number" ]
-        },
-        "languageCode": "en"
-      } ]
-    },
-    "targetFlow": "Check Balance",
-    "name": "8bbd0077-d11f-4897-b80b-a4a402a2bef0"
-  }, {
-    "intent": "EMI Calculator",
-    "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "Which type of loan EMI calculator?\nPersonal ? Home loan? Vehicle loan?" ]
-        },
-        "languageCode": "en"
-      } ]
-    },
-    "targetFlow": "Personal Loan",
-    "name": "48112c69-f08d-4cc9-bd84-aa867eef78a4"
+    "targetFlow": "Interest rate",
+    "name": "7a374b55-cf03-436c-9e1d-2ef1d59fe472"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",
@@ -60,7 +24,7 @@
         "languageCode": "en"
       } ]
     },
-    "name": "04e0f2b9-55b5-484c-8bf3-4aa2b82f88e4"
+    "name": "7307e4f5-cae9-4eda-8885-7873ab4f09eb"
   }, {
     "event": "sys.no-input-default",
     "triggerFulfillment": {
@@ -71,7 +35,7 @@
         "languageCode": "en"
       } ]
     },
-    "name": "ee9455ef-9346-431d-a435-9f337db2df8e"
+    "name": "41e0fa6f-ea9c-40a3-822f-d8e8bbf9f302"
   } ],
   "nluSettings": {
     "modelType": "MODEL_TYPE_STANDARD",

@@ -1,0 +1,10 @@
+{
+  "name": "ac284a0f-d2c0-40d2-9d85-3f470907e867",
+  "displayName": "Capture interest rate",
+  "parameters": [ {
+    "id": "interestrate",
+    "entityType": "@interestRate"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 1
+}

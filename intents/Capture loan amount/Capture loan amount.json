@@ -1,0 +1,10 @@
+{
+  "name": "cbbb7f63-9ef5-461c-a3ce-25ec9ec54cf1",
+  "displayName": "Capture loan amount",
+  "parameters": [ {
+    "id": "principle",
+    "entityType": "@principle"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 1
+}

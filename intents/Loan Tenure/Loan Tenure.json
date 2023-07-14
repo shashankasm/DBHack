@@ -1,0 +1,10 @@
+{
+  "name": "57a9fefd-89de-4958-8f93-2518439d9d0d",
+  "displayName": "Loan Tenure",
+  "parameters": [ {
+    "id": "tenure",
+    "entityType": "@tenure"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 1
+}
